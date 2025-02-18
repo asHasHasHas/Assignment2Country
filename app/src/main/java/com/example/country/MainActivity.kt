@@ -88,6 +88,7 @@ fun CountryRow(country: Country) {
         Column {
             Text(text = "Country: ${country.name}", fontWeight = FontWeight.Bold,fontSize = 16.sp)
             Text(text = "Currency: ${country.currency}", fontSize = 14.sp, color = Color.DarkGray )
+            Text(text = "Capital: ${country.capital}", fontSize = 12.sp, color = Color.DarkGray)
         }
 
     }
